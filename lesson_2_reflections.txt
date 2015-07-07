@@ -11,5 +11,11 @@ y el working directory, con el comando "git add" selecciono manualmente los arch
 de mi proyecto a los que quiere agregar al respositorio uno por uno y asi hacer una
 seleccion mas acorde.
 
+Se puede saber que cambios se ha hecho a los archivos antes de hacerles commit con 
+el commando "git diff" seguido de ningun argumento. Esto compara el working directory
+con el staging area. Una vez que hacemos "git add" podemos hacer un ultimo checkeo con 
+"git diff --staged" que compara el staging area con el ultimo commit hecho (commit1)
+y si de verdad queremos hacer commit a esos cambios hacemos "git commit".
+
 
 
