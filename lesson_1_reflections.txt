@@ -1,0 +1,33 @@
+Usar diff para ver los cambios es una gran ventaja frente a compararlos a simple vista.
+El comando resalta solo las partes distintas sin mostrar lo que ha permanecido igual, 
+haciendo la tarea de comparacion mucho mas sencilla.
+
+Hace a un programador mas eficiente porque te deja al alcance todas las versiones que ha tenido 
+un proyecto y facilita la comprension, los cambios y los efectos finales 
+sobre aquel.
+
+Crear manualmente commits trae ventajas como por ejemplo, evitar tener muchos archivos guardados
+sin casi diferencias entre si o con muy pocos cambios relativamente. El creado manual hace posible
+separar cambios que tengan una logica muy distinta haciendo mucho mas legible la diferencia.
+Por otro lado las contras que tiene son que como depende enteramente del usuario el factor error
+humano entra en juego y el criterio pobre de cuando crear los commits es muy relevante.
+
+Sistema de control de verion como Git, permiten guardar multiples archivos en un solo commit porque
+muchas veces archivos de codigo estan relacionados a otros como los de paginas web que involucran
+un archivo html, un css y un javascript y cambios hechos en un uno pueden afectar directamente a los
+otros.
+
+Para ver los archivos dentro de un repositorio se utliza el comando "git log" que muestra los archivos
+y cada uno de sus commits. Para comparar estos commits se utiliza "git diff" y el programa resalta la 
+diferencia entre ambos.
+Para hacer mas simple la tarea de comparacion se puede utilizar "git config --global color.ui auto"
+
+Git te da la confianza para hacer cambios que podrian resultar en errores o "romper" el codigo actual
+con su capacidad de volver a versiones anteriores y checkear en que commit se cometio el error.
+De esta forma se puede saber exactamente en que punto del desarrollo esta la falla y con "git diff"
+comparar y arreglar el problema.
+
+
+
+
+

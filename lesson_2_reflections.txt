@@ -1,0 +1,15 @@
+Cuando se inicializa un respositorio "git init" se crea un archivo oculto
+.git que comienza a almacenar todos los commits que se vayan haciendo a lo largo
+del proyecto. Con "git status" es posible ver que archivos abarca el respositorio
+dentro de una carpeta y cuantos commits hay en total.
+
+Working directory se le llama a la ubicacion en la que tengo guardado los archivos
+que posee mi proyecto pero no seria conveniente hacerles un commit a todos juntos 
+y agregarlos al respository dado que tal vez son de distinta tipo logico. Para eso
+existe algo que se llama staging area que es un area intermediaria entre el repositorio
+y el working directory, con el comando "git add" selecciono manualmente los archivos 
+de mi proyecto a los que quiere agregar al respositorio uno por uno y asi hacer una
+seleccion mas acorde.
+
+
+
