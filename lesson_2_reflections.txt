@@ -17,5 +17,13 @@ con el staging area. Una vez que hacemos "git add" podemos hacer un ultimo check
 "git diff --staged" que compara el staging area con el ultimo commit hecho (commit1)
 y si de verdad queremos hacer commit a esos cambios hacemos "git commit".
 
+Las ramificaciones son importantes para hacer cambios experimentales al codigo  o para
+crear versiones alternativas del proyecto queriendo mantener la version actual innvariable.
+
+Es muy util hacer un diagrama de la rama maestra y sus ramas para poder visualizar la
+forma que ha tomado el proyecto y asi tener todo bajo control. Si no se hace el diagrama
+recordar que ramas se han creado y que forma ha tomado el proyecto puede ser muy complicado.
+
+
 
 
